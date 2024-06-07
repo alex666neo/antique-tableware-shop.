@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Антикварный Магазин Посуды</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Antique Tableware Shop - Your source for exquisite antique tableware.">
+    <title>Antique Tableware Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать в наш Антикварный Магазин Посуды</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="gallery.html">Галерея</a></li>
-                <li><a href="collections.html">Коллекции</a></li>
-                <li><a href="contact.html">Контакты</a></li>
+            <div class="logo">
+                <a href="index.html">Antique Tableware Shop</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="welcome">
-            <h2>У нас вы найдете уникальные и редкие предметы посуды, которые украсят любой интерьер.</h2>
-            <img src="images/welcome.jpg" alt="Антикварная посуда">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to the Antique Tableware Shop</h1>
+                <p>Your source for exquisite antique tableware.</p>
+                <a href="catalog.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+        <section class="featured">
+            <h2>Featured Items</h2>
+            <div class="item-grid">
+                <!-- Add product items here -->
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Антикварный Магазин Посуды</p>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <p>&copy; 2024 Antique Tableware Shop. All rights reserved.</p>
+        </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
